@@ -99,7 +99,7 @@ nix-env -iA nixpkgs.invoice
 Install with Go:
 
 ```sh
-go install github.com/maaslalani/invoice@main
+go install github.com/lreardon/invoice@main
 ```
 
 Or download a binary from the [releases](https://github.com/maaslalani/invoice/releases).
