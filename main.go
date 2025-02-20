@@ -148,7 +148,7 @@ var generateCmd = &cobra.Command{
 			subtotal += float64(q) * r
 		}
 		// Write the total quantity
-		writeRow(&pdf, "", total_quantity, 0.0)
+		// writeRow(&pdf, "", total_quantity, 0.0)
 		if file.Note != "" {
 			writeNotes(&pdf, file.Note)
 		}

@@ -5,3 +5,6 @@
 *.sh
 !.github/workflows/*.yml
 invoice
+.envrc
+/bin/
+/invoices/
